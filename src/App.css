@@ -2,38 +2,11 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: unset;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.Landing {
+.Title {
   background-color: #203744; /*褐返 かちかえし*/
   color: white;
   min-height: 10vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -47,10 +20,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 3vmin);
+  width: 80%;
+  margin: auto;
 }
 
-.Works {
+.Skills {
   background-color: #203744;
   color: white;
   min-height: 50vh;
@@ -58,11 +33,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 3vmin);
 }
 
-.Contact {
-  white-space: pre;
+.Works {
   background-color: white;
   color: black;
   min-height: 50vh;
@@ -70,9 +44,48 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: calc(10px + 3vmin);
+}
+
+.Contact {
+  white-space: pre;
+  background-color: #203744;
+  color: white;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 3vmin);
+}
+
+.IconContact {
+  display: flex;
+  flex-direction: row;
+}
+
+.IconSkills {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2vh;
+  font-size: calc(10px + 1vmin);
+}
+
+.ParagraphWrapper {
+  color: #6b6b6b;
+  font-weight: normal;
+  font-size: calc(10px + 1vw);
+  text-align: center;
+  word-break: keep-all;
+}
+
+ul.ListSkills {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
   font-size: calc(10px + 2vmin);
 }
 
-.IconWrapper {
-  color: #6b6b6b;
+ul.ListSkills li {
+  margin-bottom: 2vh;
 }
