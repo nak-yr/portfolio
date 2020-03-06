@@ -71,7 +71,16 @@
   font-size: calc(10px + 1vmin);
 }
 
-.ParagraphWrapper {
+/*.ParagraphWrapper {
+  color: #6b6b6b;
+  font-weight: normal;
+  font-size: calc(10px + 1vw);
+  text-align: center;
+  word-break: keep-all;
+}
+*/
+
+p {
   color: #6b6b6b;
   font-weight: normal;
   font-size: calc(10px + 1vw);
