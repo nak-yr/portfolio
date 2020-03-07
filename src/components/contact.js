@@ -9,7 +9,7 @@ import { IconContext } from 'react-icons'
 
 function Contact() {
     return (
-        <div className="Contact">
+        <div className="Contact dark" id="Contact">
             <h2>Contact</h2>
             <div className="IconContact" style={{ paddingTop: '5vw' }}>
                 <IconContext.Provider value={{ color: 'white', size: '5vw' }}>

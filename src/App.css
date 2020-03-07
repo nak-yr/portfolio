@@ -2,28 +2,71 @@ h1 {
   font-size: calc(10px + 3vmin);
   font-weight: normal;
 }
-
 h2 {
   font-size: calc(10px + 3vmin);
   font-weight: normal;
+}
+
+a.TitleContent {
+  color: white;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+a.TitleContent:hover {
+  background-color: #667b85;
 }
 
 .App {
   text-align: center;
 }
 
-.Title {
-  background-color: #203744; /*褐返 かちかえし*/
+/*ライトテーマ*/
+.light {
+  color: #6b6b6b;
+  background-color: white;
+}
+
+/*ダークテーマ*/
+.dark {
   color: white;
+  background-color: #203744; /*褐返 かちかえし*/
+}
+
+/*パラグラフに関する共通設定*/
+p {
+  font-weight: normal;
+  font-size: calc(10px + 1vw);
+  word-break: break-word;
+}
+
+/*スペースの狭い部分に適用する設定*/
+.MiniPara {
+  font-size: calc(7px + 1vw);
+  width: 90%;
+  margin: auto;
+  padding-bottom: 2vw;
+}
+/*パラグラフに関する共通設定 ここまで*/
+
+.Title {
+  display: flex;
+  flex-direction: column;
   min-height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+.TitleBar {
+  flex-direction: row;
+  width: 100vw;
+  font-size: calc(10px + 1vmin);
+  border-top: 1px solid;
+}
 
 .AboutMe {
-  background-color: white;
   color: black;
   min-height: 50vh;
   display: flex;
@@ -35,8 +78,6 @@ h2 {
 }
 
 .Skills {
-  background-color: #203744;
-  color: white;
   min-height: 50vh;
   display: flex;
   flex-direction: column;
@@ -45,7 +86,6 @@ h2 {
 }
 
 .Works {
-  background-color: white;
   color: black;
   min-height: 50vh;
   display: flex;
@@ -56,8 +96,6 @@ h2 {
 
 .Contact {
   white-space: pre;
-  background-color: #203744;
-  color: white;
   min-height: 50vh;
   display: flex;
   flex-direction: column;
@@ -77,11 +115,12 @@ h2 {
   font-size: calc(10px + 1vmin);
 }
 
+/*Works部分の表示に関する設定*/
+/*PCでは各作品を横並びに表示*/
 .ProductWrapper {
   display: flex;
   flex-direction: row;
 }
-
 .Product {
   width: 40vw;
   margin: 2vw;
@@ -91,12 +130,12 @@ h2 {
   transition: all 0.3s ease 0s;
 }
 
+/*スマホの場合は各作品を縦並びに表示*/
 @media only screen and (max-width: 480px) {
   .ProductWrapper {
     display: flex;
     flex-direction: column;
   }
-
   .Product {
     width: 80vw;
     margin: 2vw;
@@ -107,30 +146,19 @@ h2 {
   }
 }
 
+/*作品にホバーしたときは影を表示して線を太くする*/
 .Product:hover {
   border-width: 2px;
   box-shadow: 0.5vw 0.5vw #6b6b6b;
 }
-
-p {
-  color: #6b6b6b;
-  font-weight: normal;
-  font-size: calc(10px + 1vw);
-  text-align: center;
-  word-break: break-word;
-}
-
-p.MiniPara {
-  font-size: calc(5px + 1vw);
-  width: 90%;
-  margin: auto;
-}
+/*Works部分の表示に関する設定 ここまで*/
 
 ul.ListSkills {
   display: flex;
   flex-direction: column;
   list-style-type: none;
   font-size: calc(10px + 2vmin);
+  padding-inline-start: 0vw;
 }
 
 ul.ListSkills li {

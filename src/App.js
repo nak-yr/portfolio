@@ -9,13 +9,13 @@ import Contact from './components/contact'
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Title />
       <AboutMe />
       <Skills />
       <Works />
       <Contact />
-    </>
+    </div>
   );
 }
 
