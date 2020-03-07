@@ -4,7 +4,7 @@ import '../App.css'
 function AboutMe() {
     return (
         <div className="AboutMe">
-            About Me
+            <h2>About Me</h2>
             <p>
                 こんにちは，中山と申します．情報系の大学に通う学生です．<br />
                 新しい技術のトレンドを追ったり，手を動かして新しいことを学ぶことが好きです．<br />

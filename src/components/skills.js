@@ -10,7 +10,7 @@ import { IoLogoJavascript } from 'react-icons/io'
 function Skills() {
     return (
         <div className="Skills">
-            Skills
+            <h2>Skills</h2>
             <IconContext.Provider value={{
                 color: 'white', size: '5vw'
             }}>
