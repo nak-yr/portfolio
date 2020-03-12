@@ -12,7 +12,7 @@ function Contact() {
         <div className="Contact dark" id="Contact">
             <h2>Contact</h2>
             <div className="IconContact" style={{ paddingTop: '5vw' }}>
-                <IconContext.Provider value={{ color: 'white', size: '5vw' }}>
+                <IconContext.Provider value={{ color: 'white', size: '10vmin' }}>
                     <div style={{ paddingRight: '10vw' }}>
                         <Tippy
                             content={<span style={{ color: 'white' }}>On GitHub</span>} placement='bottom'

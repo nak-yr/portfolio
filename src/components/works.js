@@ -15,7 +15,7 @@ function Works() {
                     <p className="MiniPara light">
                         PDF形式で出力される画像データは，パワーポイント等に貼ろうとすると難儀するので，PNG形式に変換するために作成しました．<br />
                         Pythonスクリプトで，単一ページPDFの場合にのみ使用可能です．<br />
-                        ソースコードをGitHubに後悔しています．
+                        ソースコードをGitHubに公開しています．
                     </p>
                 </div>
                 <div className="Product">
