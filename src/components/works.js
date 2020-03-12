@@ -9,7 +9,7 @@ function Works() {
                 <div className="Product">
                     <p className="light">1ページPDFをPNG形式に変換するツール</p>
                     <hr width="80%"/>
-                    <p className="light">GitHub URL <br /> hogehoge</p>
+                    <p className="light">GitHub URL <br /> <a href='https://github.com/nakayama-ko/convert_pdf-to-png'>https://github.com/nakayama-ko/convert_pdf-to-png</a></p>
                     <hr width="80%"/>
                     <p className="light">Desctiption</p>
                     <p className="MiniPara light">
@@ -22,7 +22,7 @@ function Works() {
                     <p className="light">Portfolio Site</p>
                     <hr width="80%"/>
                     <p className="light">Site URL <br /> <a href='https://nakayama-portfolio.web.app'>https://nakayama-portfolio.web.app</a></p>
-                    <p className="light">GitHub URL <br /> hogehoge</p>
+                    <p className="light">GitHub URL <br /> <a href='https://github.com/nakayama-ko/portfolio'>https://github.com/nakayama-ko/portfolio</a></p>
                     <hr width="80%"/>
                     <p className="light">Desctiption</p>
                     <p className="MiniPara light">

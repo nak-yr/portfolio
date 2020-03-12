@@ -12,10 +12,6 @@ a.TitleContent {
   padding-left: 2vw;
   padding-right: 2vw;
   text-decoration: none;
-  transition: all 0.3s ease 0s;
-}
-a.TitleContent:hover {
-  background-color: #667b85;
 }
 
 .App {
@@ -36,7 +32,7 @@ a.TitleContent:hover {
 
 /*パラグラフに関する共通設定*/
 p {
-  font-weight: thin;
+  font-weight: normal;
   font-size: calc(10px + 1vw);
   word-break: break-word;
 }
@@ -58,12 +54,6 @@ p {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-}
-.TitleBar {
-  flex-direction: row;
-  width: 100vw;
-  font-size: calc(10px + 1vmin);
-  border-top: 1px solid;
 }
 
 .AboutMe {
@@ -160,7 +150,29 @@ ul.ListSkills {
   font-size: calc(10px + 2vmin);
   padding-inline-start: 0vw;
 }
-
 ul.ListSkills li {
   margin-bottom: 2vh;
+}
+
+.ListTitle {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-block-start: 0vw;
+  margin-block-end: 0vw;
+  padding-inline-start: 0vw;
+  font-size: calc(10px + 1vw);
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+.ListTitle li {
+  width: 100%;
+  transition: all 0.3s ease 0s;
+}
+.ListTitle li:hover {
+  background-color: #667b85;
+}
+.ListTitle li+ li {
+  border-left: 1px solid white;
 }
