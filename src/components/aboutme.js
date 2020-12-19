@@ -6,7 +6,7 @@ function AboutMe() {
         <div className="AboutMe light" id="AboutMe">
             <h2>About Me</h2>
             <p className="light">
-                こんにちは，中山と申します．情報系の大学に通う学生です．<br />
+                こんにちは，中山と申します．ITベンダーに勤めている社会人です．<br />
                 新しい技術のトレンドを追ったり，手を動かして新しいことを学ぶことが好きです．<br />
                 このサイトもReactの勉強の一環として，<code>React.js</code>を用いて制作しています．
             </p>
