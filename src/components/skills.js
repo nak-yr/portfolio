@@ -18,10 +18,10 @@ function Skills() {
                 <ul className="ListSkills">
                     <li><FaHtml5 /> HTML5</li>
                     <li><FaCss3Alt /> CSS3</li>
-                    <li><FaWordpress /> Wordpress</li>
-                    <li><FaReact /> React</li>
-                    <li><IoLogoJavascript />JavaScript</li>
+                    <li><IoLogoJavascript />ECMAScript</li>
+                    <li><FaReact /> React.js</li>
                     <li><FaPython />Python</li>
+                    <li><FaWordpress /> Wordpress</li>
                 </ul>
             </IconContext.Provider>
         </div>
